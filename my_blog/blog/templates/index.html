@@ -1,1 +1,5 @@
 <h1>Hello</h1>
+{% for article in articles %}
+<h3>{{ article.title }}</h3>
+<p>{{ article.desc }}</p>
+{% endfor %}
